@@ -1,0 +1,141 @@
+html, body, div, p, ul, li, img, span, a, h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Verdana,San-serif;
+  font-size: 10px;
+  line-height: 16px;
+  color: #383838;
+}
+
+a {
+  color: #383838;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #383838;
+  text-decoration: underline;
+}
+a img {
+  border: none;
+}
+
+.clear {
+  clear: both;
+}
+
+
+
+
+/* A modifier */
+
+
+body {
+  background-image: url('arriere_plan.jpg') ;
+  background-repeat: repeat-x ;
+  background-repeat: repeat-y;
+  background-repeat: repeat;
+}
+
+#page {
+  margin:auto;
+  width:900px; 
+}
+#banniere img {
+  float: left;
+  height: 50px;
+  width:50px
+}
+
+#banniere h1 {
+  color: red;
+margin-left : 5%;
+ margin-top: 3%;
+ font-size: 2em;
+ 
+}
+
+#menu {
+  background-image: url('menu.png');
+  height:38px;
+  
+ 
+}
+
+#menu ul {list-style-type: none;
+  
+}
+
+#menu ul li {
+ display:block;
+ float:left;
+}
+
+#menu li.separateur {
+  background-image: url('menu_separator.png');
+height:38px;
+width:8px;
+}
+
+#menu li.lien {
+  font-size:2em ;
+  padding:1%
+}
+
+#menu li.lien a {
+  color:black;
+}
+
+
+#carrousel{
+  background-image:url('carrousel.jpg');
+  height:450px;
+  border-radius: 3em;
+}
+table{background-image: url("boite-top.png");
+  border-radius: 5%;
+  border-spacing: 15px;
+  border-collapse: 15px;
+  width:880px;
+}
+
+
+
+.col { display:inline;
+  float:left;
+  width:270px;
+  padding:30px;
+  
+}
+
+#bas_de_page footer {text-align: center;
+  font-size: 10px;
+  color:white;
+    }
+    div.grand_boite , div.image{ display:inline-block;} 
+#sous-contenu{background-image: url("boite-top.png");
+  height: 650px;
+  border-radius: 5%;
+}
+
+
+  div.grand_boite ul {list-style-image:  url('bullet.png');
+  margin-left: 15%;}
+ 
+  div.grand_boite ul hr{width:350px ; 
+  margin-left: 0px;}
+ div.image{ float:right;
+  margin-right:3% ;
+  margin-top: 3%;
+  border-color: black;
+  border-style: double;
+width:450px;}
+div.image img{height:150px;}
+div.grand_boite  ul li {font-size:1em}
+
+div.img a:hover img 
+{border-color: blue; 
+}
